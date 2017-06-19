@@ -1,0 +1,13 @@
+Requirements: 
+arp-scan  (network scanning tool)
+
+What it does:
+whoishome scans the local network for devices and writes the IP and MAC addresses to scanresults.txt.
+mappersons.py then maps known MAC addresses to Names and writes the names to personshome.txt.
+The contents of personshome.txt are printed to command line.
+
+How to run: 
+execute whoishome
+
+What to tweak:
+mappersons.py contains a dictionary. Edit the known MACs or Names. You can also add IPs instead of MACs. 
